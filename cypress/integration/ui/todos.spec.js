@@ -9,6 +9,7 @@ describe("Todo UI Testing", () => {
     it("Should add a new todo correctly", () => {
         cy.addNewTodo("First Todo")
         cy.get('.todo-item').last().should('contain.text', 'First Todo')
+        cy.log('Hello Github Integration')
     })
 
     it('should be able to toggle the status', () => {
@@ -25,7 +26,7 @@ describe("Todo UI Testing", () => {
     it("add empty todo", () => {
         cy.addNewTodo("")
     })
-    
+
     afterEach(() => {
         cy.get('body').then($el => {
             if($el.find('.delete-item').length > 0){
