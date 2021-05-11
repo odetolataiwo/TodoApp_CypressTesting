@@ -1,4 +1,10 @@
+Click this to view more about the test
+
+&#8650;&#8650;&#8650;&#8650;&#8650;&#8650;&#8650;&#8650;
+
 [![TodoApp_Testing](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/detailed/hmebpv&style=flat&logo=cypress)](https://dashboard.cypress.io/projects/hmebpv/runs)
+
+&#8648;&#8648;&#8648;&#8648;&#8648;&#8648;&#8648;&#8648;
 
 
 ### Instructions to run the code locally
